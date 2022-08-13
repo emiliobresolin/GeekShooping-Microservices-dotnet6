@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace GeekShooping.ProductAPI
 {
     public class Program
@@ -5,9 +7,12 @@ namespace GeekShooping.ProductAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            //adicionando varial connection
+            var connection = builder.Configuration["MySqlConnection:MysqlConnectionString"];
             // Add services to the container.
-
+            //aqui se adiciona os servicos, ao inves de service.AddDatabse... usamos builder.Service
+            builder.Services.AddDbContext<Model.Context.MySQLContext>(options => options.UseMySql(connection
+                , new MySqlServerVersion(new Version(8, 0, 26))));
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
