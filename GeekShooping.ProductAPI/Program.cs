@@ -1,6 +1,7 @@
 using AutoMapper;
 using GeekShooping.ProductAPI.Config;
 using GeekShooping.ProductAPI.Model.Context;
+using GeekShooping.ProductAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace GeekShooping.ProductAPI
@@ -20,6 +21,9 @@ namespace GeekShooping.ProductAPI
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             builder.Services.AddSingleton(mapper);
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            //injetando o productRepository
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
