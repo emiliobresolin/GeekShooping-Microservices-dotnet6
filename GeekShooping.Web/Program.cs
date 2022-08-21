@@ -1,3 +1,6 @@
+using GeekShooping.Web.Services;
+using GeekShooping.Web.Services.IServices;
+
 namespace GeekShooping.Web
 {
     public class Program
@@ -8,6 +11,8 @@ namespace GeekShooping.Web
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpClient<IProductService, ProductService>(c => c.BaseAddress = 
+            new Uri(builder.Configuration["ServiceUrls:ProductAPI"])); //temos q usar o builder na frente do confi pois estamos sem a classe startup
 
             var app = builder.Build();
 
