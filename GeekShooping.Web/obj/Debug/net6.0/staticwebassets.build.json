@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+4N1VHq3HfNXdWYWsbcMPZ5dBzrA5AZjRMHqIDdqDH0=",
+  "Hash": "/sxCTPVy24YdLEdpt4G6hxL5NGY4MkdpaJQ1/UVxV3w=",
   "Source": "GeekShooping.Web",
   "BasePath": "_content/GeekShooping.Web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DEV\\CERTIFICADOS\\MICROSERVIÇOS UDEMY\\PROJETOS\\GeekShooping\\GeekShooping\\GeekShooping.Web\\wwwroot\\images\\favicon.png",
+      "SourceId": "GeekShooping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\CERTIFICADOS\\MICROSERVIÇOS UDEMY\\PROJETOS\\GeekShooping\\GeekShooping\\GeekShooping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShooping.Web",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "D:\\DEV\\CERTIFICADOS\\MICROSERVIÇOS UDEMY\\PROJETOS\\GeekShooping\\GeekShooping\\GeekShooping.Web\\wwwroot\\images\\geek_shopping.png",
+      "SourceId": "GeekShooping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\CERTIFICADOS\\MICROSERVIÇOS UDEMY\\PROJETOS\\GeekShooping\\GeekShooping\\GeekShooping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShooping.Web",
+      "RelativePath": "images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
     },
     {
       "Identity": "D:\\DEV\\CERTIFICADOS\\MICROSERVIÇOS UDEMY\\PROJETOS\\GeekShooping\\GeekShooping\\GeekShooping.Web\\wwwroot\\js\\site.js",
