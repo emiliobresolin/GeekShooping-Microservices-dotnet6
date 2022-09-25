@@ -22,10 +22,11 @@ builder.Services.AddIdentityServer(options =>
     options.Events.RaiseSuccessEvents = true;
     options.EmitStaticAudienceClaim = true;
 }).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
+.AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
 .AddInMemoryClients(IdentityConfiguration.Clients)
 .AddAspNetIdentity<ApplicationUser>();
-// first try! lets see how it goes:
-builder.Services.AddIdentityServer().AddDeveloperSigningCredential();
+// first try! lets see how it goes = failed | first try got me a error on line 29 which was corrected by commenting the line 29
+//builder.Services.AddIdentityServer().AddDeveloperSigningCredential();
 
 
 builder.Services.AddControllersWithViews();
@@ -37,6 +38,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
