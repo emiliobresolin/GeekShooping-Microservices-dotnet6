@@ -320,7 +320,6 @@ D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\Geek
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShooping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll

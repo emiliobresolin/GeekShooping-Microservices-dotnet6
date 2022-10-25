@@ -368,3 +368,4 @@ D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\Geek
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-994BFF0DED7660CC27917B737E2F1336.json
