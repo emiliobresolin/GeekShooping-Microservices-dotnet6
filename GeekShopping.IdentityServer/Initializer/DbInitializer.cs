@@ -22,20 +22,23 @@ namespace GeekShopping.IdentityServer.Initializer
 
         public void Initialize()
         {
-            if (_role.FindByNameAsync(IdentityConfiguration.Admin).Result != null) return;
+            if (_role.FindByNameAsync(IdentityConfiguration.Admin).Result != null) 
+                return;
             _role.CreateAsync(new IdentityRole(IdentityConfiguration.Admin)).GetAwaiter().GetResult();
             _role.CreateAsync(new IdentityRole(IdentityConfiguration.Client)).GetAwaiter().GetResult();
+
             ApplicationUser admin = new ApplicationUser()
             {
                 UserName = "emilio-admin",
                 Email = "emilio.bresolin@gmail.com",
                 EmailConfirmed = true,
-                PhoneNumber = "+55 (51) 997609133",
+                PhoneNumber = "+55 (51) 12345-6789",
                 FirstName = "Emilio",
                 LastName = "Admin"
             };
             _user.CreateAsync(admin, "Emilio123$").GetAwaiter().GetResult();
             _user.AddToRoleAsync(admin, IdentityConfiguration.Admin).GetAwaiter().GetResult();
+
             var adminClaims = _user.AddClaimsAsync(admin, new Claim[]
             {
                 new Claim(JwtClaimTypes.Name, $"{admin.FirstName} {admin.LastName}"),
@@ -49,13 +52,13 @@ namespace GeekShopping.IdentityServer.Initializer
                 UserName = "emilio-client",
                 Email = "emiliotdm@hotmail.com",
                 EmailConfirmed = true,
-                PhoneNumber = "+55 (51) 997609133",
+                PhoneNumber = "+55 (51) 12345-6789",
                 FirstName = "Emilio",
                 LastName = "Client"
             };
             _user.CreateAsync(client, "Emilio123$").GetAwaiter().GetResult();
-            _user.AddToRoleAsync(client,
-                IdentityConfiguration.Client).GetAwaiter().GetResult();
+            _user.AddToRoleAsync(client, IdentityConfiguration.Client).GetAwaiter().GetResult();
+
             var clientClaims = _user.AddClaimsAsync(client, new Claim[]
             {
                 new Claim(JwtClaimTypes.Name, $"{client.FirstName} {client.LastName}"),
