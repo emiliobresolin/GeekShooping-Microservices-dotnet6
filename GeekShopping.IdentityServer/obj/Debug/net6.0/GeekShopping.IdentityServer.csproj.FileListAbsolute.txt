@@ -99,7 +99,6 @@ D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\Geek
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
@@ -366,3 +365,6 @@ D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\Geek
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
+D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
+D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DEV\CERTIFICADOS\MICROSERVIÇOS UDEMY\PROJETOS\GeekShooping\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
